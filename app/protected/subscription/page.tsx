@@ -3,6 +3,8 @@ import { Card } from "@/components/ui/card";
 import { cn } from "@/utils/styles";
 import { createUpdateClient } from "@/utils/update/server";
 
+export const dynamic = 'force-dynamic';
+
 export default async function Page() {
   const client = await createUpdateClient();
   const { data, error } = await client.billing.getSubscriptions();

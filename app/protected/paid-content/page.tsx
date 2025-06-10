@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import PaidContentCard from "@/components/paid-content-card";
 
+export const dynamic = 'force-dynamic';
+
 export default async function PaidContent() {
   const client = await createUpdateClient();
   const { data, error } = await client.entitlements.check("premium");

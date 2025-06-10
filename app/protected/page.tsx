@@ -1,6 +1,8 @@
 import { createSupabaseClient } from "@/utils/supabase/server";
 import AuthPageSignOutButton from "@/components/auth-sign-out-button";
 
+export const dynamic = 'force-dynamic';
+
 export default async function ProtectedPage() {
   const client = await createSupabaseClient();
   const {

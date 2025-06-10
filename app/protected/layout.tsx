@@ -1,6 +1,8 @@
 import Content from "@/components/content";
 import ProtectedSidebar from "@/components/protected-sidebar";
 
+export const dynamic = 'force-dynamic';
+
 export default function ProtectedLayout({
   children,
 }: {
