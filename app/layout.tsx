@@ -16,6 +16,8 @@ export const metadata: Metadata = {
   description: "The fastest way to build apps with Next.js and Update",
 };
 
+export const dynamic = 'force-dynamic';
+
 export default function RootLayout({
   children,
 }: Readonly<{
