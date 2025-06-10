@@ -21,7 +21,7 @@ export default function Home() {
           </a>
         </div>
         <p className="text-3xl lg:text-4xl !leading-tight mt-4">
-          Build software faster with{" "}
+          Create software faster with{" "}
           <a
             href="https://update.dev/?utm_source=create-update-app&utm_medium=template&utm_term=nextjs"
             target="_blank"
