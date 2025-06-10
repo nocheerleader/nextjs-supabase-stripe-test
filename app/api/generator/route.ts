@@ -1,5 +1,7 @@
 import { createUpdateClient } from "@/utils/update/server";
 
+export const dynamic = 'force-dynamic';
+
 export async function POST() {
   const client = await createUpdateClient();
   const { data, error } = await client.entitlements.check("premium");
